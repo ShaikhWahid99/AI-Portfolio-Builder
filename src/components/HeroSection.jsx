@@ -16,9 +16,7 @@ const HeroSection = () => {
       </h1>
 
       <p className="text-xl text-gray-300 leading-relaxed max-w-xl">
-        Turn your projects into polished portfolios in minutes. Whether you are
-        a freelancer, student, or agency, our tool helps you present your work
-        with impact and stand out from the crowd.
+        Turn your projects into professional portfolios in minutes. Perfect for freelancers, students, and agencies to showcase work with impact.
       </p>
     </div>
   );
