@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <Sparkles className="w-5 h-5" />
               </div>
-              <span className="text-xl font-bold">PortfolioAI</span>
+              <span className="text-xl font-bold">Webfolio</span>
             </div>
             <p className="text-gray-400">Create stunning portfolios with the power of AI in minutes, not hours.</p>
           </div>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 PortfolioAI. All rights reserved.</p>
+          <p>&copy; 2024 Webfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>
