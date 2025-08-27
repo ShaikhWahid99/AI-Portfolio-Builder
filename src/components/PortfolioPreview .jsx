@@ -12,8 +12,8 @@ const PortfolioPreview = ({ previewData }) => {
   ];
 
   return (
-    <div className="relative">
-      <div className="bg-gradient-to-br from-slate-800 to-slate-900 p-6 rounded-2xl shadow-2xl border border-slate-700">
+    <div className="relative max-w-xl mx-auto">
+      <div className="bg-gradient-to-br from-slate-800 to-slate-900p-4 rounded-xl shadow-2xl border border-slate-700 scale-90 hover:scale-95 transition-transform duration-300">
         {/* Browser Mock */}
         <div className="bg-gray-100 rounded-t-lg p-3 flex items-center space-x-2 mb-4">
           <div className="flex space-x-2">
@@ -30,7 +30,7 @@ const PortfolioPreview = ({ previewData }) => {
         <div className="bg-white rounded-lg p-6 space-y-6">
           {/* Header */}
           <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-6 flex items-center space-x-6">
-            <div className="w-20 h-20 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full flex items-center justify-center overflow-hidden">
+            <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full flex items-center justify-center overflow-hidden flex-shrink-0">
               <img
                 src="https://images.unsplash.com/photo-1494790108755-2616b332b2a7?w=100&h=100&fit=crop&crop=face"
                 alt="Profile"

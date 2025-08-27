@@ -6,6 +6,8 @@ import InputSection from "./components/InputSection ";
 import FeatureGrid from "./components/FeatureGrid";
 import PortfolioPreview from "./components/PortfolioPreview ";
 import QuickEditPanel from "./components/QuickEditPanel ";
+import Trial from "./components/Trial";
+import Footer from "./components/Footer";
 
 function App() {
   const [inputText, setInputText] = useState("");
@@ -39,9 +41,9 @@ function App() {
       <Navigation />
 
       <div className="container mx-auto px-6 py-12">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 lg:pr-8 ">
             <HeroSection />
 
             <TemplateSelector
@@ -56,7 +58,7 @@ function App() {
               onGenerate={handleGenerate}
             />
 
-            <FeatureGrid />
+            
           </div>
 
           {/* Right Content - Portfolio Preview */}
@@ -68,8 +70,16 @@ function App() {
           updatePreview={updatePreview}
           isVisible={!!inputText}
         />
+
+        <FeatureGrid />
+
+        <Trial></Trial>
+
+        <Footer></Footer>
       </div>
     </div>
+
+
   );
 }
 
